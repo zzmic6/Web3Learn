@@ -1,0 +1,162 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "lhs",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rhs",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "f1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "f2",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "f3",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "f4",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "f5",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "c",
+						"type": "uint256"
+					}
+				],
+				"name": "f6",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/task2/Function.sol": "Function"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/task2/Function.sol": {
+			"keccak256": "0x147822b2c8ec2f9f777edb77d7a86c7d49086b8d402446d6c3446f38ed351da0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://06963c47f8ab91df65e2454a34ab1a0f749da9e79fc4c0230de15a6b979c9fd7",
+				"dweb:/ipfs/QmQYrqKxF9Zh6B9Br7irxRvcgnvRCr8xzdToNvexsXhwnt"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "FunctionCalled",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/task2/Callee.sol": "Callee"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/task2/Callee.sol": {
+			"keccak256": "0x3a04a8fbab1cfe23bee47dc59d3a9dc5fb84bf9c8d633339a64afeee6d0af71f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4def797dbbe531f3f118cb668dade8ccc527d08258e4cb01bd3cfff568be29b2",
+				"dweb:/ipfs/QmZ5mMnUQYE7TsosjxnLYjVt3vj6rdEUx3Rvg3JstFFpm4"
+			]
+		}
+	},
+	"version": 1
+}

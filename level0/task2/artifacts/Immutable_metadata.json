@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/task2/Immutable.sol": "Immutable"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/task2/Immutable.sol": {
+			"keccak256": "0x8a21e57827db5278a311ccd1d08c064c606f934e4ece228757ca5efa33fe1711",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ee53b8e876ff66b0a2a675f420d0451648a35c8cf9d3bc1bd7256db9991db613",
+				"dweb:/ipfs/Qmf3EaFNwQfPC6ar1tmo7vKqJMdzd8KxLxXULXFDxfJ4my"
+			]
+		}
+	},
+	"version": 1
+}

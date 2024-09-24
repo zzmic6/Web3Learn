@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "ternary",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/task2/IfElse.sol": "IfElse"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/task2/IfElse.sol": {
+			"keccak256": "0x3fbc4d0e51713a9abef5e6376b70df6df4cb9bbc6fac57649f222a497176c3c8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f8c8f74b5d024bc26ed0f9792c1985b6a7fe511ce567348ca363499ad1f77acb",
+				"dweb:/ipfs/QmcArrw8BtKsoCxw1jLVLTDBBKjMkEZDUz6dBVssDtSxGx"
+			]
+		}
+	},
+	"version": 1
+}

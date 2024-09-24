@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "overflow",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/task2/Integer.sol": "Integer"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/task2/Integer.sol": {
+			"keccak256": "0xf642b64d0b720efadbfb0f13fd298ad93ba944494c59c2c67bdcd156f54561c1",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://560b0247d1e57075daf39735ae4bac4396ab8a5fdfc2ef0ad90d7bfc68aa2089",
+				"dweb:/ipfs/QmciLAH5Jtjp6B5RZZnUQmzbfBv4mBdxUgVXRtFo2eiWEg"
+			]
+		}
+	},
+	"version": 1
+}

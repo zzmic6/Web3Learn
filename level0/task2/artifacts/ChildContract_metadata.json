@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "funcExternal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "funcPublic",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/task2/ChildContract.sol": "ChildContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/task2/ChildContract.sol": {
+			"keccak256": "0x17f61056193a3589e86c65a66a22f39d62bad55ac783ed55067c9ab6cd5019cb",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://335566577ddb6ff3d65aef17f6e49eeeb2731dfe347fdeb47de44161b0a52ed0",
+				"dweb:/ipfs/QmaXbidc22FEVQJiznkSCHGxJEeh6sa8TtoysJHyd35CSG"
+			]
+		},
+		"level0/task2/MainContract.sol": {
+			"keccak256": "0x8c3a65c4448b70d53281432b02d77812f6edce192afa9e443e359ee6a18714b1",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c18b47bed7e65af74b98c191bc87ffd9022852d0d6d78c82dccf036799c2e844",
+				"dweb:/ipfs/Qmbx3JPzhVwyj6sBZuj6KgMAoTjS1ARuzJUwhYQT5CZQMg"
+			]
+		}
+	},
+	"version": 1
+}

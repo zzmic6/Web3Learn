@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "addr1",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "addr2",
+						"type": "address"
+					}
+				],
+				"name": "splitEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/task2/Require.sol": "Require"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/task2/Require.sol": {
+			"keccak256": "0x4ed8c2d85521510a3cb673e1d9a76f9f0fc08376eeb587e35a4023b3d9d1f3c6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://329c8a9637eef52d009a33df58668adf553f1d1e7101a3f0a2045c8edd4fd7a1",
+				"dweb:/ipfs/QmYUsjrjj5pMpkoDLUgfHhpeEv52WozqJnCVfEvPETa4cg"
+			]
+		}
+	},
+	"version": 1
+}

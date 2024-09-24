@@ -1,0 +1,107 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "callFallback",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "callFoo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "callReceive",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendReceive",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "transferReceive",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level0/task2/Caller1.sol": "Caller"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level0/task2/Callee.sol": {
+			"keccak256": "0x3a04a8fbab1cfe23bee47dc59d3a9dc5fb84bf9c8d633339a64afeee6d0af71f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4def797dbbe531f3f118cb668dade8ccc527d08258e4cb01bd3cfff568be29b2",
+				"dweb:/ipfs/QmZ5mMnUQYE7TsosjxnLYjVt3vj6rdEUx3Rvg3JstFFpm4"
+			]
+		},
+		"level0/task2/Caller1.sol": {
+			"keccak256": "0x3118543461b9279930987550ab2fcf62b58d68cae5dcbfb60d362c2ee0830991",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://70e5738875dfa3737d38f003ea0979e219962737e2ab39841105065d061ef924",
+				"dweb:/ipfs/QmQax66r2wC89Da6ynpATWd68mj72KYi1AVjMemvBPnofQ"
+			]
+		}
+	},
+	"version": 1
+}
