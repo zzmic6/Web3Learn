@@ -1,0 +1,125 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_version",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes32",
+						"name": "key",
+						"type": "bytes32"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes32",
+						"name": "value",
+						"type": "bytes32"
+					}
+				],
+				"name": "ItemSet",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"name": "items",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "key",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "value",
+						"type": "bytes32"
+					}
+				],
+				"name": "setItem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "version",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level2/Store.sol": "Store"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level2/Store.sol": {
+			"keccak256": "0x6584206e27c93aa06d37cca5c7f9932c389a9de0bd266a455340644d7fa85000",
+			"urls": [
+				"bzz-raw://8dbb9685146e82d85788c030186d40b3fc3cc1251e90fbc366cba5e5cfee9ffe",
+				"dweb:/ipfs/QmNgVbxWoSEVe63PMBSaLH6P5yjWVi1VVwsDveQYJWmuCp"
+			]
+		}
+	},
+	"version": 1
+}
